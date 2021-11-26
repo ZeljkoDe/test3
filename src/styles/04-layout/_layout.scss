@@ -1,0 +1,36 @@
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+main {
+	@include flex(space-between, center);
+
+	height: calc(90vh);
+
+	i {
+		font-size: 100px;
+		padding: 30px;
+		float: left;
+		shape-outside: circle(50%);
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	section:last-of-type {
+		padding-left: 150px;
+
+		h1 {
+			font-style: italic;
+			font-size: 50px;
+			margin-bottom: 30px;
+			text-align: right;
+		}
+
+		h2 {
+			margin-bottom: 20px;
+		}
+	}
+}

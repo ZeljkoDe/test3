@@ -1,10 +1,12 @@
 {
 	"diffEditor.wordWrap": "on",
-	"editor.formatOnSave": false,
+	"editor.formatOnSave": true,
 	"editor.wordWrap": "on",
 	"files.autoSave": "afterDelay",
 	"editor.tabCompletion": "on",
 	"editor.tabSize": 2,
+	"prettier.eslintIntegration": true,
+	"prettier.stylelintIntegration": true,
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
@@ -18,7 +20,7 @@
 		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
 	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
+		"source.fixAll.eslint": false
 	},
 	"eslint.validate": [
 		"javascript"

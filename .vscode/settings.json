@@ -1,0 +1,26 @@
+{
+	"diffEditor.wordWrap": "on",
+	"editor.formatOnSave": false,
+	"editor.wordWrap": "on",
+	"files.autoSave": "afterDelay",
+	"editor.tabCompletion": "on",
+	"editor.tabSize": 2,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": [
+		"javascript"
+	]
+}
